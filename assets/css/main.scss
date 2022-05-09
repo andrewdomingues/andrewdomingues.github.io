@@ -1,0 +1,42 @@
+$primary: #007e85;
+$lightPrimary: #00ADB5;
+$second: #393E46;
+$dark: #222831;
+$light: #EEEEEE;
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: $second;
+    img{
+        width: 70px;
+        margin: 20px;
+        border-radius: 50%;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        
+        li{
+            display: inline;
+            list-style: none;
+            padding: 7px;
+            margin: 10px;
+            border: 3px solid $primary;
+            border-radius: 7px;
+            a{
+                color: $light;
+                text-decoration: none;
+            }
+        }
+        li:hover{
+            background-color: $primary;
+        }
+        li:active{
+            position: relative;
+            top: 1px;
+        }
+    }
+}
