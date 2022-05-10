@@ -10,13 +10,17 @@
   </head>
   <body>
     <header>
-        <nav class="navbar">
-            <img src="https://pbs.twimg.com/profile_images/1377647843322789891/UtkyWzjN_400x400.png" alt="Andrew Profile Picture">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
+      <div class="logo">
+        <a href="#home"><img src="https://pbs.twimg.com/profile_images/1377647843322789891/UtkyWzjN_400x400.png" alt="Andrew Profile Picture"></a>
+      </div>
+        <nav>
+          <button aria-label="Open menu" id="btn-mb" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+          <ul class="menu" id="menu" role="menu">
+            <li><a href="#sobre">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#blog">Blog</a></li>
+          </ul>
         </nav>
     </header>
 
@@ -25,5 +29,6 @@
       src="https://kit.fontawesome.com/f3bc06d535.js"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
