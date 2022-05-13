@@ -2,7 +2,6 @@ $primary: #0466c8;
 $second: #393E46;
 $dark: #222831;
 $light: #EEEEEE;
-
 * {
     padding: 0;
     margin: 0;
@@ -10,11 +9,9 @@ $light: #EEEEEE;
     font-size: 100%;
     font-family: sans-serif;
     vertical-align: baseline;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
-html, body{
-    height: 100%;
-}
+html, body{ height: 100% }
 body{
     background-color: $dark;
     color: $light;
