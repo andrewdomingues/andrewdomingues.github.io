@@ -1,5 +1,4 @@
 const btnMb = document.querySelector('#btn-mb')
-
 function toggleMenu(event){
     if(event.type === 'touchstart') event.preventDefault()
     const menu = document.querySelector('nav')
@@ -16,6 +15,5 @@ function toggleMenu(event){
         event.currenTarget.setAttribute('aria-label', 'Open menu')
     }
 }
-
 btnMb.addEventListener('click', toggleMenu)
 btnMb.addEventListener('touchstart', toggleMenu)
