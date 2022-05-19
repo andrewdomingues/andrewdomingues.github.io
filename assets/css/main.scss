@@ -15,8 +15,6 @@ header {
     display: none;
   }
   nav {
-    // position: fixed;
-    // width: 100%;
     .menu {
       display: flex;
       list-style: none;
@@ -45,7 +43,6 @@ header {
     }
   }
 }
-
 @media (max-width: 600px) {
   header {
     nav {
