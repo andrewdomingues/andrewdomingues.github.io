@@ -1,1 +1,101 @@
-*{padding:0;margin:0;border:0;font-size:100%;font-family:sans-serif;vertical-align:baseline;box-sizing:border-box}html,body{height:100%}body{background-color:#222831;color:#eee}nav ol,nav ul{list-style:none}header{display:flex;background-color:#393e46;align-items:center;justify-content:space-between;height:70px}header .logo img{width:50px;margin:20px;border-radius:50%}header #btn-mb{display:none}nav .menu{display:flex;list-style:none;flex-direction:row;justify-content:flex-end}nav .menu li{display:inline-block;padding:7px;margin:10px;border:3px solid #0466c8;border-radius:7px;transition:.3s}nav .menu li:hover{background-color:#0466c8}nav .menu li a{color:#eee;text-decoration:none}nav .menu li:active{position:relative;top:1px}@media(max-width: 600px){nav .menu{display:block;position:absolute;background-color:#393e46;width:100%;height:0;transition:.6s;z-index:100;top:70px;right:0;visibility:hidden;overflow-y:hidden}nav .menu li{text-align:center;border:0;display:block;padding:10px}nav nav.show-menu .menu{height:calc(100vh - 70px);visibility:visible;overflow-y:auto}nav #btn-mb{display:flex;padding:.5rem 1rem;font-size:2rem;background:none;color:#eee;cursor:pointer}}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+nav ol,
+nav ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  background-color: #393e46;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+header .logo img {
+  width: 50px;
+  margin: 20px;
+  border-radius: 50%;
+}
+header #btn-mb {
+  display: none;
+}
+header nav .menu {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+header nav .menu li {
+  display: inline;
+  padding: 7px;
+  margin: 10px;
+  border: 3px solid #0466c8;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+header nav .menu li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+header nav .menu li:hover,
+header nav .menu li:active {
+  background-color: #0466c8;
+}
+header nav .menu li:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 600px) {
+  header nav .menu {
+    display: block;
+    position: absolute;
+    background-color: #393e46;
+    width: 100%;
+    height: 0;
+    transition: 0.6s;
+    z-index: 100;
+    top: 70px;
+    right: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  header nav .menu li {
+    text-align: center;
+    border: 0;
+    display: block;
+    padding: 10px;
+  }
+  header nav.show-menu .menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  header #btn-mb {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    background: none;
+    color: #eeeeee;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=main.css.map */
